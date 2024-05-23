@@ -41,7 +41,7 @@ class AudioSearcher:
 # Example usage
 if __name__ == "__main__":
     audio_file = "example_audio.mp3"  # Replace with your audio file
-    keyword = "Python"  # Replace with the word you want to search for
+    keyword = "課題"  # Replace with the word you want to search for
 
     searcher = AudioSearcher(language='en-US')
     transcribed_text = searcher.transcribe(audio_file)
